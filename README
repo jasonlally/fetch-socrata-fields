@@ -1,0 +1,12 @@
+// To download fields from socrata
+
+node scripts/processTables
+node scripts/processGeo
+node scripts/combineOutput
+node scripts/tocsv
+
+
+// To get attachments
+
+node scripts/getAttachmentList.js
+
